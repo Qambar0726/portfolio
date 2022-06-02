@@ -1,0 +1,363 @@
+    *{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif; 
+    box-sizing: border-box;
+    }
+
+     .gradient-box{ 
+    width:100%;
+    height: 770px;
+    background-image: linear-gradient(black, black);
+     }
+     
+     
+
+    nav{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 45px;
+    padding-left: 140px;
+    padding-right: 140px;
+    }
+
+    .navbar{
+    color: white;
+    font-size: 35px;
+    letter-spacing: 2px;
+    cursor: pointer;
+    }
+
+    span{
+    color: red;
+    }
+
+    nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px  25px;
+    }
+
+    nav ul li a{
+     color: white;
+     text-decoration: none;
+     font-weight: bold;
+     text-transform: capitalize;
+    }
+
+    nav ul li a:hover{
+    color: red;
+    transition: .2s;
+    }
+
+    button{
+    background-color: red;
+    color: white;
+    text-decoration: none;
+    border: 2px solid red;
+    font-weight: bold;
+    padding: 10px 25px;
+    border-radius: 30px;
+    }
+
+    .button:hover{
+      transform: scale(1.3);
+     }
+
+    .content{
+      position: absolute;
+      top: 50%;
+      left: 140px;
+    }
+
+    h1{
+        color: white;
+        margin: 20px 0px 20px;
+        font-size: 60px;
+        }
+
+    h3{
+        color:white;
+        font-size: 33px;
+        margin-bottom: 50px;
+        }
+
+    h4{
+         color: red;
+         letter-spacing: 2px;
+         font-size: 20px;
+         }
+
+    .news form{
+         width: 400px;
+         max-width: 100%;
+         position: relative;
+         }
+
+    .news form input:first-child{
+         display: inline-block;
+         width: 100%;
+         padding: 14px 130px 14px 15px;
+         border: 3px solid red;
+         outline: none;
+         border-radius: 30px;
+         }
+
+    .news form input:last-child{
+         position: absolute;
+         display: inline-block;
+         outline: none;
+         border: none;
+         padding: 10px 30px;
+         background-color: red;
+         color:white;
+         top: 6px;
+         right:6px;
+         border-radius: 30px;
+        }
+
+    .about{
+             width: 100%;
+             padding: 10px 0px;
+             background-color:rgb(12, 11, 11);
+            }
+
+    .about img{
+             height: auto;
+             width: 430px;
+             }
+
+    .about-text{
+             width: 550px;
+             }
+
+    .main{
+             width: 1130px;
+             max-width: 95%;
+             margin: 0 auto;
+             display: flex;
+             align-items: center;
+             justify-content: space-around;
+             }
+         
+    .about-text h2{
+             color: white;
+             font-size: 75px;
+             text-transform: capitalize;
+             margin-bottom: 20px;
+             }
+
+    .about-text h5{
+             color: white;
+             letter-spacing: 2px;
+             font-size: 22px;
+             margin-bottom: 25px;
+             text-transform: capitalize;
+             }
+
+    .about-text p{
+             color: pink;
+             letter-spacing: 1px;
+             line-height: 28px;
+             font-size: 18px;
+             margin-bottom: 45px;
+             }
+
+
+    #photo{
+             margin-right: 150px;
+             border-radius: 20px;
+          }
+
+    .button{
+            background-color: red;
+            color: white;
+            text-decoration: none;
+            border: 2px solid transparent;
+            font-weight: bold;
+            padding: 13px 30px;
+            border-radius: 30px;
+            transition: .4s;
+            }
+
+    button:hover{
+             background-color: transparent;
+             border: 2px solid red;
+             cursor: pointer;
+            }
+
+    .Skills{
+            background: #0e0d0d;
+            width: 100%;
+            padding: 100px 0px;
+            }
+
+    .title h2{
+            color: white;
+            font-size: 70px;
+            width: 1130px;
+            margin: 30px auto;
+            text-align: center;
+            }
+
+    .box{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 400px;
+            }
+
+    .AAA{
+            height: 300px;
+            width: 280px;
+            padding: 20px 35px;
+            background: #1d1d1d;
+            color: white;
+            border-radius: 20px;
+            margin: 92px;
+            position: relative;
+            overflow: hidden;
+            text-align: center;
+            }
+
+    h5{
+            color: white;
+            font-size: 23px;
+            margin-bottom: 15px;
+            font-weight: 700;
+            }
+
+    .ability p{
+            color: rgb(0, 255, 229);
+            font-size: 16px;
+            line-height: 27px;
+            margin-bottom: 25px; 
+            margin-top: 30px;
+            font-weight: 500;
+            }
+
+    .AAA .button{
+               background-color: red;
+               color: white;
+               text-decoration: none;
+               border: 2px solid transparent;
+               font-weight: bold;
+               padding: 9px 10px;
+               border-radius: 30px;
+               transition: .4s;
+               }
+
+    .AAA .button:hover{
+                background-color: transparent;
+                border: 2px solid red;
+                cursor: pointer;
+                }
+
+    .contact-me{
+                width: 100%;
+                height: 290px;
+                background: #0e0d0d;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                flex-direction: column;
+                }
+
+    .contact-me p{
+                color: white;
+                font-size: 30px;
+                font-weight: bold;
+                margin-bottom: 25px;
+                letter-spacing: 1px;
+                }
+
+    .contact-me .button2{
+               background-color: red;
+               color: white;
+               text-decoration: none;
+               border: 2px solid transparent;
+               font-weight: bold;
+               padding: 9px 10px;
+               border-radius: 30px;
+               transition: .4s;
+               }
+
+    .contact-me .button2:hover{
+                background-color: transparent;
+                border: 2px solid red;
+                cursor: pointer;
+                }
+            
+    footer{
+                position: relative;
+                width: 100%;
+                height: 400px;
+                background: black;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                }
+            
+    footer p:nth-child(1){
+                font-size: 30px;
+                color: white;
+                margin-bottom: 20px;
+                font-weight: bold;
+                }
+        
+    footer p:nth-child(2){
+                color: white;
+                font-size: 17px;
+                width: 500px;
+                text-align: center;
+                line-height: 26px;
+                }
+
+    .social{
+            display: flex;
+           }
+
+    .social a{
+                width: 60px;
+                height: 60px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                background: rgb(255, 0, 0, 0.8);
+                border-radius: 50%;
+                margin: 22px 10px;
+                color: white;
+                text-decoration: none;
+                }
+
+    .social a:hover{
+                    transform: scale(1.3);
+                    transition: .3s;
+                    } 
+
+                    .picture{
+                       display: flex; 
+                       justify-content: flex-end;
+                       width: 500px;
+                       height: 500px;
+                       margin-left: 860px;
+                       margin-top: 100px;
+                    }
+
+                    #ielts{
+                        border-radius: 20px;
+                    }
+
+               
+               
+
+         
+         
+
+     
+     
+
+  
+
+
